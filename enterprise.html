@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <!-- このページは2018年1月現在、インデックスされていません。 -->
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-106754742-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-106754742-1');
+    </script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="ロジクラをカスタマイズして利用したい方はこちら。3PLでの利用や大規模倉庫、製造業、卸売業、小売業などでご利用いただけます。">
+    <meta name="keywords" content="エンタープライズ, カスタマイズ, ロジクラ">
+    <meta name="robots" content="noindex">
+
+    <title>エンタープライズ｜ロジクラ</title>
+
+    <!-- Styles -->
+    <link href="assets/css/core.min.css" rel="stylesheet">
+    <link href="assets/css/thesaas.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+    <style>
+      body {
+        -webkit-font-smoothing: antialiased;
+      }
+      .underbar {
+        border-bottom: 1px solid #28536C;
+        color:#28536c !important;
+      }
+      .flexbox {
+        display: -webkit-flex;
+      	display: -moz-flex;
+      	display: -ms-flex;
+      	display: -o-flex;
+      	display: flex;
+      }
+      dt {
+        width:100px;
+        float: left;
+      }
+      dd {
+        width: -webkit-calc(100% - 100px);
+        width: calc(100% - 100px);
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        float: left;
+      }
+      .price {
+        line-height: 1;
+      }
+    @media only screen and (max-width: 767px){
+      h1 {
+        font-size: 2.4rem;
+      }
+      .subtitle {
+        font-size:2rem;
+        margin:0px 15px;
+      }
+      .section-sub {
+        font-size:1.5rem;
+      }
+      .sub-sub {
+        font-size:1rem;
+      }
+      .lead {
+        margin:0px 15px;
+      }
+      .addbox {
+        order:2;
+      }
+      .oddbox {
+        order:1;
+      }
+      .mr-auto,
+      .mx-auto {
+        font-size:1rem !important;
+      }
+      dl {
+        width:90%;
+        margin-left:5%;
+      }
+      .price-units {
+        display: inline-block;
+        font-size: 16px;
+        vertical-align: text-top;
+        margin-right: -10px;
+        margin-top: -15px;
+        margin-bottom:40px;
+      }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 1199px){
+      .subtitle {
+        font-size:3.5rem;
+      }
+      .section-sub {
+        font-size:2.5rem;
+      }
+      .sub-sub {
+        font-size:2rem;
+      }
+      dl {
+        width:80%;
+        margin-left:10%;
+      }
+      .pricing-1 .price {
+        font-size:50px;
+      }
+      .price-unit {
+        font-size: 20px;
+      }
+      .pad-10 {
+        padding: 0px 10px;
+      }
+      .price-units {
+        display: inline-block;
+        font-size: 16px;
+        vertical-align: text-top;
+        margin-right: -10px;
+        margin-top: -15px;
+        margin-bottom:40px;
+      }
+    }
+    @media only screen and (min-width: 1200px){
+      .subtitle {
+        font-size:3.5rem;
+      }
+      .section-sub {
+        font-size:3rem;
+      }
+      .sub-sub {
+        font-size:3rem;
+      }
+      dl {
+        width:50%;
+        margin-left:25%;
+      }
+      .price-units {
+        display: inline-block;
+        font-size: 18px;
+        vertical-align: text-top;
+        margin-right: -10px;
+        margin-top: -15px;
+        margin-bottom:40px;
+      }
+    }
+    @media only screen and (min-width: 768px) and (max-width: 999px) {
+      .container {
+        width: 100%;
+      }
+    }
+
+    </style>
+    <!-- Global site tag (gtag.js) - Google AdWords: 847759084 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-847759084"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'AW-847759084');
+    </script>
+  </head>
+
+  <body id="home">
+
+
+    <!-- Topbar -->
+    <nav class="topbar topbar-expand-sm topbar-sticky">
+      <div class="container-wide">
+        <div class="row h-full">
+          <div class="offset-1 col-10 col-md-4 offset-md-1 align-self-center">
+            <button class="topbar-toggler">&#9776;</button>
+            <a class="topbar-brand" href="index.html">
+              <img class="logo-default" src="assets/img/logikura.png" alt="logo">
+            </a>
+          </div>
+
+
+          <div class="col-1 col-md-5 text-md-right">
+            <ul class="topbar-nav nav">
+              <li class="nav-item"><a class="nav-link" href="#" data-scrollto="home">ホーム</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" data-scrollto="how-to-use">使い方</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" data-scrollto="section-features">機能</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" data-scrollto="section-pricing">料金</a></li>
+              <li class="nav-item"><a class="nav-link" href="#" data-scrollto="contact">導入を進める</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- END Topbar -->
+
+
+
+
+    <!-- Header -->
+    <header class="header h-fullscreen">
+    <!-- <header class="header h-fullscreen" style="background-image: linear-gradient(150deg, #fdfbfb 0%, #eee 100%);"> -->
+      <div class="container-wide">
+
+        <div class="row h-full align-items-center text-center text-lg-left">
+
+          <div class="offset-1 col-10 col-lg-5 offset-lg-1" data-aos="fade-up">
+            <h1>ECの物流業務をシームレスに</h1>
+            <br>
+            <h2 class="lead mx-auto">ロジクラ が通販物流のあらゆる局面をサポートします！受注オーダーの取り込み、入荷、出荷から在庫管理まで  —  どんな業務でも ロジクラ が生産性を改善します。</h2>
+            <br>
+            <a class="btn btn-lg btn-success" href="#" data-scrollto="contact">使ってみる</a>
+            <p class="pt-8">すでにアカウントをお持ちですか？ <a class="text-muted underbar" href="https://logikura.com">ログイン</a></p>
+          </div>
+
+          <div class="col-12 col-lg-6 img-outside-right hidden-md-down" data-aos="fade-left">
+            <img src="assets/img/macbook-main.png" alt="..." style="max-width:180%; width:180%; margin-left:-40%;">
+          </div>
+
+        </div>
+
+      </div>
+    </header>
+    <!-- END Header -->
+
+
+
+
+    <!-- Main container -->
+    <main class="main-content">
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | ニュース
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      -->
+      <section class="section text-center" style="background-image: linear-gradient(150deg, #fdfbfb 0%, #eee 100%);">
+        <p class="fw-900 lead">NEWS</p>
+        <dl>
+          <dt>2017.10.20</dt>
+          <dd><a href="https://prtimes.jp/main/html/rd/p/000000004.000021747.html">国内初。在庫管理から需要予測までを一気通貫で提供する「ロジクラ」。通販事業者向け在庫管理機能の事前登録の募集を開始。</a></dd>
+        </dl>
+      </section>
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Reclaim your workday
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section text-center">
+
+        <div class="row">
+          <div class="col-12 offset-md-2 col-md-8">
+            <h3 class="fw-900 mb-20 subtitle" data-aos="fade">通販物流業務を大幅に改善</h3>
+            <p class="lead text-muted" data-aos="fade">オーダーの取り込み、入荷、出荷から在庫管理まで、全ての通販物流業務をストレスなく繋ぎます。</p>
+            <p><img src="assets/img/demo/slack/cta.png" alt="..." data-aos="fade-up"></p>
+          </div>
+        </div>
+
+      </section>
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | ユースケース
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      -->
+      <section class="section text-center" style="background-image: linear-gradient(150deg, #fdfbfb 0%, #eee 100%);" id="how-to-use">
+        <h4 class="fw-900 mb-20 subtitle" data-aos="fade">利用シーン</h4>
+        <p class="lead text-muted" data-aos="fade">※ 現在は自社倉庫でお使いいただくことを想定しています。</p>
+        <div class="row">
+          <div class="col-sm-12 offset-md-2 col-md-4" data-aos="fade-up">
+            <p class="fw-900 sub-sub">自社倉庫で活用</p>
+            <p><img src="assets/img/demo/slack/cta.png" alt="..."></p>
+          </div>
+          <div class="col-sm-12 col-md-4" data-aos="fade-up">
+            <p class="fw-900 sub-sub">委託倉庫で活用</p>
+            <p><img src="assets/img/demo/slack/cta.png" alt="..."></p>
+            <a class="btn btn-primary" href="warehouse">倉庫事業者様はこちら →</a>
+          </div>
+        </div>
+      </section>
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | 機能
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      -->
+      <section class="section overflow-hidden" id="section-features">
+        <div class="container">
+          <header class="section-header mb-20">
+            <h4 class="fw-900 mb-20 subtitle" data-aos="fade">便利な機能が備わっています</h4>
+            <a href="features.html" class="lead" data-aos="fade">全ての機能はこちら　→</a>
+          </header>
+
+          <div data-provide="shuffle">
+            <div class="text-center gap-multiline-items-2" data-shuffle="filter">
+              <button class="btn btn-w-md btn-outline btn-info active" data-shuffle="button">全て</button>
+              <button class="btn btn-w-md btn-outline btn-info" data-shuffle="button" data-group="mine">自社倉庫で活用</button>
+              <button class="btn btn-w-md btn-outline btn-info" data-shuffle="button" data-group="another">委託倉庫で活用</button>
+            </div>
+            <br><br>
+
+
+            <div data-shuffle="list">
+
+              <div data-shuffle="item" data-groups="another">
+                <div class="row gap-y align-items-center flexbox">
+                  <div class="col-12 col-md-5 text-center addbox">
+                    <img src="assets/img/demo/slack/everywhere.png" alt="...">
+                  </div>
+                  <div class="col-12 offset-md-1 col-md-6 oddbox">
+                    <h6 class="fw-900 section-sub">ECオーダーの取り込み</h6>
+                    <p>ECのオーダーをCSVにして、CSVをまた戻して...ロジクラではAPI接続によりECと物流をシームレスに接続します。</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+
+              <div data-shuffle="item" data-groups="another">
+                <div class="row gap-y align-items-center">
+                  <div class="col-12 col-md-6">
+                    <h6 class="fw-900 section-sub">離れた場所から出荷指示</h6>
+                    <p>倉庫へ出荷指示を出すのにもう紙の書類は必要ありません。ロジクラを使えば世界中どこにいても出荷指示を出すことができます。</p>
+                  </div>
+                  <div class="col-12 offset-md-1 col-md-5 text-center">
+                    <img src="assets/img/demo/slack/everywhere.png" alt="...">
+                  </div>
+                </div>
+                <hr>
+              </div>
+
+              <div data-shuffle="item" data-groups="mine">
+                <div class="row gap-y align-items-center flexbox">
+                  <div class="col-12 col-md-5 text-center addbox">
+                    <img src="assets/img/demo/slack/everywhere.png" alt="...">
+                  </div>
+                  <div class="col-12 offset-md-1 col-md-6 oddbox">
+                    <h6 class="fw-900 section-sub">スマホでピッキング</h6>
+                    <p>もうハンディは必要ありません！出荷オーダーがスマホに自動で入ってきます。スマホが商品の場所まで誘導し、ピッキング時間を短縮することができます。</p>
+                  </div>
+                </div>
+                <hr>
+              </div>
+
+              <div data-shuffle="item" data-groups="mine">
+                <div class="row gap-y align-items-center">
+                  <div class="col-12 col-md-6">
+                    <h6 class="fw-900 section-sub">バーコードで検品</h6>
+                    <p>目視で検品をしていませんか？目視での検品は在庫ズレや誤出荷を引き起こす原因となります。バーコードを読み込み、音で正誤判断。在庫表の更新までスマホで行えます。</p>
+                  </div>
+                  <div class="col-12 offset-md-1 col-md-5 text-center">
+                    <img src="assets/img/demo/slack/everywhere.png" alt="...">
+                  </div>
+                </div>
+                <hr>
+              </div>
+
+              <div data-shuffle="item" data-groups="mine">
+                <div class="row gap-y align-items-center flexbox">
+                  <div class="col-12 col-md-5 text-center addbox">
+                    <img src="assets/img/demo/slack/everywhere.png" alt="...">
+                  </div>
+                  <div class="col-12 offset-md-1 col-md-6 oddbox">
+                    <h6 class="fw-900 section-sub">送り状や納品書の作成</h6>
+                    <p>送り状や納品書の作成もかんたん！ロジクラからCSVを取り込み運送会社のシステムに繋ぐだけ。</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | Pricing
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      !-->
+      <section class="section bg-gray" id="section-pricing">
+        <div class="container">
+
+          <header class="section-header">
+            <h5 class="fw-900 mb-20 subtitle">料金体系</h5>
+            <p class="lead">ロジクラは業界初、使用量に応じた従量課金制です。</p>
+          </header>
+
+          <div class="row gap-y text-center">
+
+            <div class="col-12 col-md-4">
+              <div class="pricing-1">
+                <p class="plan-name">スタータープラン</p>
+                <br>
+                <p class="price"><span class="price-unit">¥</span> 30,000 <span class="price-unit">/ 月</span></p>
+                <span class="price-units fw-900"> + 出荷オーダー数(20円 / 件)</span>
+                <p class="pad-10">最もシンプルなプラン。<br>店舗や自社の倉庫での導入に</p>
+                <span>■ 入荷・出荷・在庫管理</span><br>
+                <span>■ ネットショップ連携　</span><br>
+                <span>■ 受注管理システム連携</span><br>
+                <span></span><br>
+                <br>
+                <p class="text-center py-3"><a class="btn btn-primary" href="./contact/starter.html">お見積りを開始</a></p>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-4">
+              <div class="pricing-1">
+                <p class="plan-name">スタンダードプラン</p>
+                <br>
+                <p class="price"><span class="price-unit">¥</span> 50,000 <span class="price-unit">/ 月</span></p>
+                <span class="price-units fw-900"> + 出荷オーダー数(20円 / 件)</span>
+                <p class="pad-10">委託倉庫での導入に。<br>どこにいても出荷指示が可能に</p>
+                <span>■ 入荷・出荷・在庫管理</span><br>
+                <span>■ ネットショップ連携　</span><br>
+                <span>■ 受注管理システム連携</span><br>
+                <span>■ 堅牢サーバー　　　　</span><br>
+                <br>
+                <p class="text-center py-3"><a class="btn btn-primary" href="./contact/standard.html">お見積りを開始</a></p>
+              </div>
+            </div>
+
+
+            <div class="col-12 col-md-4">
+              <div class="pricing-1">
+                <p class="plan-name">エンタープライズプラン</p>
+                <br>
+                <p class="price"><span class="price-unit">¥</span> ASK</p>
+                <span class="price-units fw-900">お問い合わせください</span>
+                <p class="pad-10">複数店舗や複雑な物流システムに対応。<br>堅牢サーバーでセキュリティを強固に</p>
+                <span>■ 入荷・出荷・在庫管理</span><br>
+                <span>■ ネットショップ連携　</span><br>
+                <span>■ 受注管理システム連携</span><br>
+                <span>■ 堅牢サーバー　　　　</span><br>
+                <br>
+                <p class="text-center py-3"><a class="btn btn-secondary" href="enterprise.html">ロジクラ Enterpriseへ</a></p>
+              </div>
+            </div>
+
+          </div>
+
+
+        </div>
+      </section>
+
+
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | お問い合わせ
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      -->
+      <section class="section text-center" id="contact">
+        <div class="container mb-100 mt-50">
+          <header class="section-header mb-10">
+            <h5 class="fw-900 mb-20 subtitle">導入を進める</h5>
+            <p class="lead">実際の画面を見ながら機能を確認できるデモをご用意しております。</p>
+          </header>
+          <div class="row gap-y">
+            <div class="col-12 offset-md-3 col-md-6">
+              <a class="btn btn-lg btn-success" href="contact"><span id="plans"></span>導入ページへ</a>
+              <!-- <form action="assets/php/sendmail.php" method="POST" data-form="mailer">
+                <div class="form-group">
+                  <select name="form-select" id="form-select">
+                    <option value=""></option>
+                    <option value="starter">starter</option>
+                    <option value="standard">standard</option>
+                    <option value="enterprise">enterprise</option>
+                  </select>
+                </div>
+                <button class="btn btn-lg btn-success" type="submit">導入ページへ</button>
+              </form> -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+    </main>
+    <!-- END Main container -->
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row gap-y align-items-center">
+          <div class="col-12 col-lg-3">
+            <p class="text-center text-lg-left">
+              <a href="index.html"><img src="assets/img/logo.png" alt="logo"></a>
+            </p>
+          </div>
+
+          <div class="col-12 col-lg-6">
+            <ul class="nav nav-primary nav-hero">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="block-feature.html">Features</a>
+              </li>
+              <li class="nav-item hidden-sm-down">
+                <a class="nav-link" href="page-pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item hidden-sm-down">
+                <a class="nav-link" href="page-contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-lg-3">
+            <div class="social text-center text-lg-right">
+              <a class="social-facebook" href="https://www.facebook.com/thethemeio"><i class="fa fa-facebook"></i></a>
+              <a class="social-twitter" href="https://twitter.com/thethemeio"><i class="fa fa-twitter"></i></a>
+              <a class="social-instagram" href="https://www.instagram.com/thethemeio/"><i class="fa fa-instagram"></i></a>
+              <a class="social-dribbble" href="https://dribbble.com/thethemeio"><i class="fa fa-dribbble"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- END Footer -->
+
+
+
+    <!-- Scripts -->
+    <script src="assets/js/core.min.js"></script>
+    <script src="assets/js/thesaas.min.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script>
+    function press(num){
+      var f;
+      num === 1 ? f = "スタータープラン" : f = "スタンダードプラン";
+      document.getElementById('plans').innerHTML = f;
+    }
+    </script>
+
+  </body>
+</html>
