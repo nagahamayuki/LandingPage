@@ -75,7 +75,7 @@
     <nav class="topbar topbar-expand-sm topbar-sticky">
       <div class="container-wide">
         <div class="row h-full">
-          <div class="smp-menu col-10 col-md-4 offset-md-1 align-self-center">
+          <div class="smp-menu col-12 col-md-3 offset-md-1 col-lg-4 offset-lg-1 align-self-center">
             <button class="topbar-toggler">&#9776;</button>
             <a class="topbar-brand" href="#" data-scrollto="home">
               <img class="logo-default" src="assets/img/logikura.png" alt="logo">
@@ -83,13 +83,24 @@
           </div>
 
 
-          <div class="col-1 col-md-5 text-md-right">
+          <div class="col-1 col-md-7 col-lg-6 text-md-right">
             <ul class="topbar-nav nav">
               <li class="nav-item"><a class="nav-link" href="#" data-scrollto="home">ホーム</a></li>
               <li class="nav-item"><a class="nav-link" href="#" data-scrollto="how-to-use">対象</a></li>
               <li class="nav-item"><a class="nav-link" href="#" data-scrollto="section-features">機能</a></li>
               <li class="nav-item"><a class="nav-link" href="#" data-scrollto="section-pricing">料金</a></li>
-              <li class="nav-item"><a class="nav-link btn btn-success top-menu-button" href="#" data-scrollto="contact" style="height: 50%; line-height: 40px; padding: 0px 30px;color: #fff; border-radius:30px;">無料体験版へ</a></li>
+              <li class="nav-item mobile-unvisible">
+                <a class="nav-link btn btn-success top-menu-button" href="contact.html" style="height: 50%; line-height: 40px; padding: 0px 30px;color: #00b0ff; border-radius:3px; opacity:1;">
+                  <i class="icon ion-android-laptop" style="font-size:18px; vertical-align: middle;"></i>
+                  無料体験版へ
+                </a>
+              </li>
+              <li class="nav-item mobile-unvisible" style="margin-left:15px;">
+                <a class="nav-link btn btn-primary top-menu-button" href="#" data-scrollto="contact" style="height: 50%; line-height: 40px; padding: 0px 30px;color: #fff; border-radius:3px; opacity:1;">
+                  <i class="icon ion-chatboxes" style="font-size:18px; vertical-align: middle;"></i>
+                  お問い合わせ
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -107,20 +118,28 @@
 
         <div class="row h-full align-items-center text-center text-lg-left">
 
-          <div class="offset-1 col-10 col-lg-5 offset-lg-1 smp-top-left-main" data-aos="fade-up">
-            <h1>クラウドで<br>かんたん在庫管理</h1>
+          <div class="offset-1 col-10 col-lg-5 offset-lg-1 smp-top-left-main">
+            <h1>ECの物流作業を<br>クラウドで管理</h1>
             <br>
-            <h2 class="lead mx-auto">入荷から在庫管理、通販オーダーから出荷まで全ての物流業務を一元管理できます。</h2>
+            <h2 class="lead mx-auto">通販の受注リストを取り込み、在庫管理から<br>送り状の発行までの物流作業をクラウドで管理</h2>
+            <!-- <h2 class="lead mx-auto">入荷から在庫管理、通販オーダーから出荷まで全ての物流業務を一元管理できます。</h2> -->
             <!-- <h2 class="lead mx-auto">ロジクラ が通販物流のあらゆる局面をサポートします！受注オーダーの取り込み、入荷、出荷から在庫管理まで  —  どんな業務でも ロジクラ が生産性を改善します。</h2> -->
             <br>
-            <a class="btn btn-lg btn-success circle30" href="#" data-scrollto="contact">2週間の無料体験版を申し込む</a>
+            <a class="btn btn-lg btn-success display-unvisible" href="contact.html" style="color: #00b0ff;">
+              <i class="icon ion-android-laptop"></i>
+              無料体験版へ
+            </a>
+            <a class="btn btn-lg btn-primary" style="margin-left:10px;" href="#" data-scrollto="contact">
+              <i class="icon ion-chatboxes"></i>
+              お問い合わせ
+            </a>
             <p class="pt-10">すでにアカウントをお持ちですか？ <a class="text-muted underbar" href="https://logikura.com">ログイン</a></p>
             <div class="fb-like" data-href="https://logikura.jp" data-layout="button_count" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
           </div>
 
-          <div class="col-12 col-lg-6 img-outside-right" data-aos="fade-left">
+          <div class="col-12 col-lg-6 img-outside-right">
             <!-- <img class="main-image" src="assets/img/admin_mockup.png" alt="..."> -->
-            <img class="main-image" src="assets/img/macbook-main.png" alt="">
+            <img class="main-image" src="assets/img/macbook-main2.png" alt="">
           </div>
 
         </div>
@@ -137,15 +156,13 @@
 
       <!--
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
-      | ニュース
+      | グラフ
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       -->
       <section class="section text-center" style="background-image: linear-gradient(150deg, #fdfbfb 0%, #eee 100%);">
-        <p class="fw-900 lead">NEWS</p>
-        <dl>
-          <dt>2017.10.20</dt>
-          <dd><a href="https://prtimes.jp/main/html/rd/p/000000004.000021747.html">国内初。在庫管理から需要予測までを一気通貫で提供する「ロジクラ」。通販事業者向け在庫管理機能の事前登録の募集を開始。</a></dd>
-        </dl>
+        <h3 class="fw-900 mb-20 subtitle">出荷作業を<span style="color:#00BCD4;">70%</span>削減できます</h3>
+        <canvas id="myChart" class="col-12 offset-md-3 col-md-6"></canvas>
+        <p class="small">※ 出荷作業 : 受注リストの取り込みから入金確認、商品ピッキング、梱包、送り状の作成から出荷実績の更新まで</p>
       </section>
 
 
@@ -158,8 +175,8 @@
 
         <div class="row">
           <div class="col-12 offset-md-2 col-md-8">
-            <h3 class="fw-900 mb-20 subtitle" data-aos="fade">物流業務を大幅に改善</h3>
-            <p class="lead text-muted" data-aos="fade">オーダーの取り込み、入荷、出荷から在庫管理まで、全ての通販物流業務をストレスなく繋ぎます。</p>
+            <h3 class="fw-900 mb-20 subtitle">EC物流業務を大幅に改善</h3>
+            <p class="lead text-muted">オーダーの取り込みから在庫管理まで、全ての通販物流業務をシームレスに繋ぎます。</p>
             <!-- <p><img src="assets/img/flow.png" alt="..." data-aos="fade-up"></p> -->
             <div style="position:inherit;">
               <img src="assets/img/back-flow2.gif" alt="画像" style="position:relative; width:100%; top:0px; left:0px;">
@@ -190,18 +207,19 @@
       |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
       -->
       <section class="section text-center" style="background-image: linear-gradient(150deg, #fdfbfb 0%, #eee 100%);" id="how-to-use">
-        <h4 class="fw-900 mb-40 subtitle" data-aos="fade">このような方にぴったりです</h4>
+        <h4 class="fw-900 mb-40 subtitle">2つの利用方法</h4>
         <div class="row">
-          <div class="col-sm-12 offset-md-2 col-md-4" data-aos="fade-up">
-            <p class="fw-900 sub-sub mb-0">通販事業</p>
-            <p class="lead">複数のショップの一元管理が可能に。</p>
+          <div class="col-sm-12 offset-md-2 col-md-4">
+            <p class="fw-900 sub-sub mb-0">自社での在庫管理</p>
+            <p class="lead">自社の倉庫や店舗での利用</p>
             <p><img src="assets/img/warehouse4.png" alt="..."></p>
+            <p>↓ そのままスクロール ↓</p>
           </div>
-          <div class="col-sm-12 col-md-4" data-aos="fade-up">
-            <p class="fw-900 sub-sub mb-0">倉庫業</p>
-            <p class="lead">顧客の受注リストの取り込みが容易に。</p>
+          <div class="col-sm-12 col-md-4">
+            <p class="fw-900 sub-sub mb-0">物流作業を委託</p>
+            <p class="lead">物流作業を全て委託</p>
             <p><img src="assets/img/warehouse2.png" alt="..."></p>
-            <a class="btn btn-primary" href="warehouse">3PL, 倉庫業者はこちら →</a>
+            <a class="btn btn-primary" href="warehouse/opal.html">ロジクラの提携倉庫はこちら →</a>
           </div>
         </div>
       </section>
@@ -215,17 +233,17 @@
       <section class="section overflow-hidden" id="section-features">
         <div class="container">
           <header class="section-header mb-20">
-            <h4 class="fw-900 mb-20 subtitle" data-aos="fade">便利な機能が備わっています</h4>
-            <a href="features.html" class="lead" data-aos="fade">全ての機能はこちら　→</a>
+            <h4 class="fw-900 mb-20 subtitle">便利な<span style="color:#08e;">機能</span>が備わっています</h4>
+            <a href="features.html" class="lead">全ての機能はこちら　→</a>
           </header>
 
           <div data-provide="shuffle">
-            <div class="text-center gap-multiline-items-2" data-shuffle="filter">
+            <!-- <div class="text-center gap-multiline-items-2" data-shuffle="filter">
               <button class="btn btn-w-md btn-outline btn-info active" data-shuffle="button">全て</button>
               <button class="btn btn-w-md btn-outline btn-info" data-shuffle="button" data-group="mine">自社倉庫で活用</button>
               <button class="btn btn-w-md btn-outline btn-info" data-shuffle="button" data-group="another">委託倉庫で活用</button>
             </div>
-            <br><br>
+            <br><br> -->
 
 
             <div data-shuffle="list">
@@ -237,7 +255,7 @@
                   </div>
                   <div class="col-12 offset-md-1 col-md-6 oddbox">
                     <h6 class="fw-900 section-sub">ECオーダーの取り込み</h6>
-                    <p>ECのオーダーをCSVにして、CSVをまた戻して...ロジクラではAPI接続によりECと物流をシームレスに接続します。</p>
+                    <p>お客様のカートシステム上での受注リストを取り込み、「入金済」「未発送」のみを検出することができるので、そのまま出荷作業に入れます。</p>
                   </div>
                 </div>
                 <hr>
@@ -263,7 +281,7 @@
                   </div>
                   <div class="col-12 offset-md-1 col-md-6 oddbox">
                     <h6 class="fw-900 section-sub">スマホでピッキング</h6>
-                    <p>もうハンディは必要ありません！出荷オーダーがスマホに自動で入ってきます。スマホが商品の場所まで誘導し、ピッキング時間を短縮することができます。</p>
+                    <p>高価なハンディは必要ありません！受注リストのデータをiPhoneに自動で読み込み。発送すべき商品をiPhoneが教えてくれます。</p>
                   </div>
                 </div>
                 <hr>
@@ -273,7 +291,7 @@
                 <div class="row gap-y align-items-center">
                   <div class="col-12 col-md-6">
                     <h6 class="fw-900 section-sub">バーコードで検品</h6>
-                    <p>目視で検品をしていませんか？目視での検品は在庫ズレや誤出荷を引き起こす原因となります。バーコードを読み込み、音で正誤判断。在庫表の更新までスマホで行えます。</p>
+                    <p>目視で検品をしていませんか？目視での検品は在庫ズレや誤出荷を引き起こす原因となります。バーコードを読み込み、音で正誤判断。在庫管理をiPhoneが自動で行います。</p>
                   </div>
                   <div class="col-12 offset-md-1 col-md-5 text-center">
                     <img src="assets/img/features/features4.png" alt="...">
@@ -289,7 +307,7 @@
                   </div>
                   <div class="col-12 offset-md-1 col-md-6 oddbox">
                     <h6 class="fw-900 section-sub">送り状や納品書の作成</h6>
-                    <p>送り状や納品書の作成もかんたん！ロジクラからCSVを取り込み運送会社のシステムに繋ぐだけ。</p>
+                    <p>送り状や納品書の作成もかんたん！受注リストのデータをそのまま送り状のデータに反映。領収書やギフトなどの備考のデータも反映します。</p>
                   </div>
                 </div>
               </div>
@@ -325,28 +343,34 @@
                 <p class="price"><span class="price-unit">¥</span> 10,000 <span class="price-unit">/ 月〜</span></p>
                 <span class="price-units fw-900"> + 出荷オーダー数(20円 / 件)</span>
                 <p class="pad-10">最もシンプルなプラン。<br>店舗や自社の倉庫での導入に</p>
-                <span>■ 入荷・出荷・在庫管理</span><br>
-                <span>■ スマホでスキャン　　</span><br>
-                <span>■ バーコード作成　　　</span><br>
-                <br>
-                <p class="text-center py-3"><a class="btn btn-primary" href="./contact/starter.html">お見積りを開始</a></p>
+                <span>入荷・出荷・在庫管理</span><br>
+                <span>iPhoneでスキャン</span><br>
+                <span>バーコード作成</span><br>
+                <span>送り状発行</span><br>
+                <span>通販連携 - 1モールのみ</span><br>
+                <span></span><br>
+                <!-- <br>
+                <p class="text-center py-3"><a class="btn btn-primary" href="./contact/starter.html">お見積りを開始</a></p> -->
               </div>
             </div>
 
 
             <div class="col-12 col-md-4">
               <div class="pricing-1">
-                <p class="plan-name">スタンダードプラン</p>
+                <p class="plan-name text-primary">スタンダードプラン</p>
                 <br>
-                <p class="price"><span class="price-unit">¥</span> 20,000 <span class="price-unit">/ 月〜</span></p>
+                <p class="price text-primary"><span class="price-unit">¥</span> 20,000 <span class="price-unit">/ 月〜</span></p>
                 <span class="price-units fw-900"> + 出荷オーダー数(20円 / 件)</span>
-                <p class="pad-10">委託倉庫での導入に。<br>どこにいても出荷指示が可能に</p>
-                <span>■ 入荷・出荷・在庫管理</span><br>
-                <span>■ スマホでスキャン　　</span><br>
-                <span>■ バーコード作成　　　</span><br>
-                <span>■ ネットショップ連携　</span><br>
-                <br>
-                <p class="text-center py-3"><a class="btn btn-primary" href="./contact/standard.html">お見積りを開始</a></p>
+                <p class="pad-10">複数の通販カートとの連携。<br>対応カートも日々アップデート</p>
+                <span>入荷・出荷・在庫管理</span><br>
+                <span>iPhoneでスキャン</span><br>
+                <span>バーコード作成</span><br>
+                <span>送り状発行</span><br>
+                <span class="text-primary">通販連携 - 複数モール</span><br>
+                <span></span><br>
+                <span></span><br>
+                <!-- <br>
+                <p class="text-center py-3"><a class="btn btn-primary" href="./contact/standard.html">お見積りを開始</a></p> -->
               </div>
             </div>
 
@@ -358,12 +382,15 @@
                 <p class="price"><span class="price-unit">¥</span> 見積り</p>
                 <span class="price-units fw-900">お問い合わせください</span>
                 <p class="pad-10">複数店舗や複雑な物流システムに対応。<br>堅牢サーバーでセキュリティを強固に</p>
-                <span>■ カスタマイズ　</span><br>
-                <span>■ 堅牢サーバー　</span><br>
                 <span></span><br>
-                <br>
-                <!-- <p class="text-center py-3"><a class="btn btn-secondary" href="enterprise.html">詳しく見る</a></p> -->
-                <p class="text-center py-3"><a class="btn btn-secondary" href="#" data-scrollto="contact">お問い合わせ</a></p>
+                <span></span><br>
+                <span></span><br>
+                <span></span><br>
+                <span></span><br>
+                <span></span><br>
+                <!-- <br>
+                <p class="text-center py-3"><a class="btn btn-secondary" href="enterprise.html">詳しく見る</a></p>
+                <p class="text-center py-3"><a class="btn btn-secondary" href="#" data-scrollto="contact">お問い合わせ</a></p> -->
               </div>
             </div>
 
@@ -382,8 +409,8 @@
       <section class="section text-center">
         <div class="container mb-100">
           <header class="section-header mb-10 pt-20" id="contact">
-            <h5 class="fw-900 mb-20 subtitle">2週間の無料体験版を申し込む</h5>
-            <p class="lead">実際の画面を見ながら機能を確認できるデモをご用意しております。</p>
+            <h5 class="fw-900 mb-20 subtitle">お問い合わせ</h5>
+            <p class="lead">担当者から導入までのご提案をさせていただきます。</p>
           </header>
           <div class="row gap-y">
             <div class="col-12 offset-md-2 col-md-8">
@@ -399,7 +426,7 @@
                         </div>
 
                         <!--  -->
-                        <div class="row">
+                        <!-- <div class="row">
                           <div class="form-group col-sm-6">
                             <label for="lastname"><strong>姓*</strong></label>
                             <input name="lastname" id="lastname" class="form-control" type="text" placeholder="例) 山田" required />
@@ -408,8 +435,12 @@
                             <label for="firstname"><strong>名*</strong></label>
                             <input name="firstname" id="firstname" class="form-control" type="text" placeholder="例) 太郎" required />
                           </div>
-                        </div>
+                        </div> -->
                         <!--  -->
+                        <div class="form-group">
+                          <label for="name"><strong>お名前*</strong></label>
+                          <input name="name" id="name" class="form-control" type="text" placeholder="例) 山田太郎" required />
+                        </div>
 
                         <div class="form-group">
                           <label for="phone"><strong>電話番号*</strong></label>
@@ -421,24 +452,28 @@
                           <input name="email" id="email" class="form-control" type="email" placeholder="例) test@example.com" required />
                         </div>
 
-                        <div class="form-group">
+                        <!-- <div class="form-group">
                           <label for="homepage"><strong>ホームページのリンク</strong></label>
                           <input name="homepage" id="homepage" class="form-control" type="url" placeholder="例) http://newrevo.jp" />
-                        </div>
+                        </div> -->
 
                         <div class="form-group">
                           <label for="values"><strong>プランの希望</strong></label>
                           <select class="values" name="values" style="width:100%; height:40px;">
                             <option value="スタータープラン">スタータープラン</option>
-                            <option value="スタンダードプラン">スタンダードプラン</option>
+                            <option value="スタンダードプラン" selected>スタンダードプラン</option>
                             <option value="エンタープライズプラン">エンタープライズプラン</option>
                             <option value="その他">それ以外のお問い合わせ</option>
                           </select>
                         </div>
 
                         <p align="center">
-                          <button type="submit" id="conversion" type="button" class="btn btn-action btn-lg btn-success wow fadeInUp circle30">無料体験版を申し込む</button>
+                          <button type="submit" id="conversion" type="button" class="btn btn-action btn-lg btn-primary wow fadeInUp">
+                            <i class="icon ion-android-checkbox-outline"></i>
+                            この内容でお問い合わせ
+                          </button>
                         </p>
+                        <!-- <p align="center">通常数日以内にご返信いたします</p> -->
                       </div>
                     </form>
 
@@ -467,6 +502,39 @@
         </div>
       </section>
 
+      <!--
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      | メディア掲載実績
+      |‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒‒
+      -->
+      <section class="section text-center" id="media">
+        <div class="container mb-100 mt-50">
+          <header class="section-header mb-10">
+            <h5 class="fw-900 mb-20 subtitle">メディア掲載実績</h5>
+          </header>
+          <div class="row gap-y">
+            <div class="col-md-2 col-lg-2">
+              <img src="assets/img/nishinihon.png" alt="西日本新聞にロジクラが掲載されました。">
+            </div>
+            <div class="col-md-2 col-lg-2">
+              <img src="assets/img/techcrunch.png" alt="TechCrunchにロジクラが掲載されました。">
+            </div>
+            <div class="col-md-2 col-lg-2">
+              <img src="assets/img/thebridge.png" alt="The Bridgeにロジクラが掲載されました。">
+            </div>
+            <div class="col-md-2 col-lg-2">
+              <img src="assets/img/logitoday.png" alt="Logistics Todayにロジクラが掲載されました。">
+            </div>
+            <div class="col-md-2 col-lg-2">
+              <img src="assets/img/jiji.png" alt="時事通信にロジクラが掲載されました。">
+            </div>
+            <div class="col-md-2 col-lg-2">
+              <img src="assets/img/ecclab.png" alt="eコマースコンバージョンラボにロジクラが掲載されました。">
+            </div>
+          </div>
+        </div>
+      </section>
+
 
     </main>
     <!-- END Main container -->
@@ -480,13 +548,13 @@
     <footer class="site-footer">
       <div class="container">
         <div class="row gap-y align-items-center">
-          <div class="col-12 col-lg-3 hidden-md-down">
+          <div class="col-12 col-lg-2 hidden-md-down">
             <p class="text-center text-lg-left">
               <a class="nav-link" href="#" data-scrollto="home"><img src="assets/img/logikura.svg" alt="logo"></a>
             </p>
           </div>
 
-          <div class="col-12 col-lg-6">
+          <div class="col-12 col-lg-9">
             <ul class="nav nav-primary nav-hero">
               <li class="nav-item">
                 <a class="nav-link" href="#" data-scrollto="home">ホーム</a>
@@ -501,12 +569,24 @@
                 <a class="nav-link" href="#" data-scrollto="section-pricing">料金</a>
               </li>
               <li class="nav-item hidden-sm-down">
-                <a class="nav-link btn btn-success top-menu-button" href="#" data-scrollto="contact" style="line-height: 40px; padding: 0px 30px;color: #fff; border-radius:30px;">無料体験版へ</a>
+                <a class="nav-link" href="https://newrevo.jp">運営会社</a>
+              </li>
+              <li class="nav-item hidden-sm-down">
+                <a class="nav-link btn btn-success top-menu-button" href="contact.html" style="line-height: 40px; padding: 0px 30px;color: #00b0ff; border-radius:3px;">
+                  <i class="icon ion-android-laptop" style="font-size:18px; vertical-align: middle;"></i>
+                  無料体験版へ
+                </a>
+              </li>
+              <li class="nav-item hidden-sm-down">
+                <a class="nav-link btn btn-primary top-menu-button" href="#" data-scrollto="contact" style="line-height: 40px; padding: 0px 30px;color: #fff; border-radius:3px;">
+                  <i class="icon ion-chatboxes" style="font-size:18px; vertical-align: middle;"></i>
+                  無料体験版へ
+                </a>
               </li>
             </ul>
           </div>
 
-          <div class="col-12 col-lg-3">
+          <div class="col-12 col-lg-1">
             <div class="social text-center text-lg-right">
               <a href="https://newrevo.jp"><i class="fa fa-home"></i></a>
               <a class="social-facebook" href="https://www.facebook.com/newrevo.jp"><i class="fa fa-facebook"></i></a>
@@ -523,6 +603,79 @@
     <script src="assets/js/core.min.js"></script>
     <script async src="assets/js/thesaas.min.js"></script>
     <script async src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js"></script>
+    <script type="text/javascript">
+    // new Chart(document.getElementById("myChart").getContext('2d'),{
+    //   type: "bar",
+    //   data: {
+    //     labels: ["従来の出荷作業", "ロジクラでの出荷作業"],
+    //     datasets: [{
+    //       data:[100, 40],
+    //       fill:false,
+    //       backgroundColor:[
+    //         "rgba(158,158,158,0.4)",
+    //         "rgba(0,188,212,0.4)",
+    //       ],
+    //       borderColor:[
+    //         "rgba(158,158,158,1)",
+    //         "rgba(0,188,212,1)",
+    //       ],
+    //       borderWidth:1
+    //     }]
+    //   },
+    //   options: {
+    //     scales: {
+    //       yAxes: [{
+    //           ticks: {
+    //               max: 100,
+    //               min: 0,
+    //               stepSize: 20
+    //           }
+    //       }]
+    //     },
+    //     title: {
+    //       display: true,
+    //       text: "従来の出荷作業とロジクラの出荷作業の比較"
+    //     }
+    //   }
+    // });
+    var ctx = document.getElementById("myChart");
+    var myChart = new Chart(ctx, {
+        type: 'bar',
+        data: {
+          labels: ["従来の出荷作業時間", "ロジクラでの出荷作業時間"],
+          datasets: [{
+              label: '( 分 )',
+              data: [10, 3],
+              backgroundColor: [
+                  'rgba(158,158,158,0.4)',
+                  'rgba(0,188,212,0.4)'
+              ],
+              borderColor: [
+                  'rgba(158,158,158,1)',
+                  'rgba(0,188,212,1)'
+              ],
+              borderWidth: 1
+          }]
+        },
+        options: {
+          scales: {
+            yAxes: [{
+                ticks: {
+                  beginAtZero:false,
+                  min: 0,
+                  max: 10,
+                  stepSize: 2
+                }
+            }]
+          },
+          title: {
+            display: true,
+            text: '1オーダーあたりの従来とロジクラでの出荷作業時間の比較'
+          }
+        }
+    });
+    </script>
 
     <!-- Google page Speed insightsからの推奨 - page reload後のcssの読み込み -->
     <script>
@@ -539,7 +692,18 @@
     <script>
       var cb = function() {
         var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = 'assets/css/mystyle.min.css';
+        l.href = 'assets/css/mystyle.css';
+        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+      };
+      var raf = requestAnimationFrame || mozRequestAnimationFrame ||
+          webkitRequestAnimationFrame || msRequestAnimationFrame;
+      if (raf) raf(cb);
+      else window.addEventListener('load', cb);
+    </script>
+    <script>
+      var cb = function() {
+        var l = document.createElement('link'); l.rel = 'stylesheet';
+        l.href = 'http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css';
         var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
       };
       var raf = requestAnimationFrame || mozRequestAnimationFrame ||

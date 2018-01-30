@@ -206,6 +206,9 @@ dd {
     margin-left:-35% !important;
     /* box-shadow: 0 7px 10px rgba(0,0,0,.5) !important; */
   }
+  .mobile-unvisible {
+    display: none !important;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px){
   .main-image {
@@ -213,6 +216,9 @@ dd {
     width:180% !important;
     margin-left:-38% !important;
     /* box-shadow: 0 7px 10px rgba(0,0,0,.5) !important; */
+  }
+  .display-unvisible {
+    display: none !important;
   }
 }
 @media only screen and (min-width: 1200px){
@@ -242,6 +248,9 @@ dd {
     margin-right: -10px;
     margin-top: -15px;
     margin-bottom:40px;
+  }
+  .display-unvisible {
+    display: none !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 999px) {
